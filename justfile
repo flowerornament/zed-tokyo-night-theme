@@ -7,3 +7,7 @@ build:
 # Build and copy into Zed's user themes (Zed did not pick up a symlink)
 install: build
     cp themes/tokyonight.json {{home_directory()}}/.config/zed/themes/tokyonight.json
+
+# Re-render screenshots/*.png in a background Zed instance
+screenshots:
+    screenshot/capture.sh
