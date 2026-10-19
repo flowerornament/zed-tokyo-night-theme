@@ -30,3 +30,7 @@ Then pick a theme in Zed: `TokyoNight Night`, `Storm`, `Moon` or `Day`.
 
 Set `TOKYONIGHT=/path/to/tokyonight.nvim` to generate from another checkout.
 By default the generator uses the copy nvim loads.
+
+## License
+
+Apache-2.0, as is [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), whose palette and highlight groups this generates from.
